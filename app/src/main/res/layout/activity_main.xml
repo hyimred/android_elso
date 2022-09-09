@@ -13,15 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:hint="Írj ide valamit!" />
+
     <Button
+        android:id="@+id/buttonKuldes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonKuldes"
         android:layout_below="@+id/editTextBemenet"
-        android:text="Küldés"
-        android:background="#0000000"
-        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
+        android:text="Küldés"
         />
     <TextView
         android:layout_width="match_parent"
